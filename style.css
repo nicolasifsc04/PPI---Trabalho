@@ -1,0 +1,81 @@
+* {
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #d18624;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    background-color: aquamarine;
+    padding: 2rem 1rem;
+}
+
+#sobre{
+    background-color: #f2d73f;
+    padding: 2rem 1rem;
+}
+
+#sobre h2{
+    text-align: center;
+}
+
+#metas{
+    background-color: bisque;
+    padding: 2rem 1rem;
+    border-style:dashed;
+    border: 1px;
+}
+
+#metas h2{
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.grid-item {
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer img{
+    height: 5%;
+    width: 5%;
+    text-align: right;
+}

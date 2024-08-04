@@ -8,12 +8,15 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
 }
 
 header {
     background: #d18624;
     color: white;
-    padding: 1rem 0;
+    padding: 16px 0;
     text-align: center;
 }
 
@@ -21,8 +24,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 1rem;
-
+    gap: 16px;
 }
 
 nav ul li a {
@@ -31,39 +33,43 @@ nav ul li a {
 }
 
 section {
-    background-color: aquamarine;
-    padding: 2rem 1rem;
+    padding: 32px 16px;
 }
 
-#sobre{
+#sobre {
     background-color: #f2d73f;
-    padding: 2rem 1rem;
+    padding: 32px 16px;
 }
 
-#sobre h2{
+#sobre h2 {
     text-align: center;
 }
 
-#metas{
+#metas {
     background-color: bisque;
-    padding: 2rem 1rem;
-    border-style:dashed;
-    border: 1px;
+    padding: 32px 16px;
+    border: 1px dashed;
 }
 
-#metas h2{
+#metas h2 {
     text-align: center;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
+#desafios {
+    background-color: #ffecd1;
+    padding: 32px 16px;
 }
 
-.grid-item {
-    background: #f4f4f4;
-    padding: 1rem;
+#desafios h2 {
+    text-align: center;
+}
+
+#solucoes {
+    background-color: #d4edda;
+    padding: 32px 16px;
+}
+
+#solucoes h2 {
     text-align: center;
 }
 
@@ -71,11 +77,11 @@ footer {
     background: #333;
     color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: 16px 0;
 }
 
-footer img{
-    height: 5%;
-    width: 5%;
+footer img {
+    height: 40px;
+    width: 40px;
     text-align: right;
 }

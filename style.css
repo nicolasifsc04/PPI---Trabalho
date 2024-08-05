@@ -1,5 +1,5 @@
 * {
-    margin: 1px;
+    margin: 0;
     padding: 1px;
     box-sizing: border-box;
     border-radius: 20px;
@@ -21,7 +21,7 @@ header {
 }
 
 nav ul {
-    list-style: none;
+    list-style: inside ;
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -34,13 +34,12 @@ nav ul li a {
 
 section {
     padding: 32px 16px;
-    border:1px #63a703;
+    border:3px solid #63a703;
 }
 
 #sobre {
     background-color: #ffffff;
     padding: 32px 16px;
-    border: 1px #63a703;
 }
 
 #sobre h2 {
@@ -51,7 +50,6 @@ section {
 #metas {
     background-color: #ffffff;
     padding: 32px 16px;
-    border: 1px #63a703;
 }
 
 #metas h2 {
@@ -62,7 +60,6 @@ section {
 #desafios {
     background-color: #ffffff;
     padding: 32px 16px;
-    border: 1px #63a703;
 }
 
 #desafios h2 {
@@ -73,7 +70,6 @@ section {
 #solucoes {
     background-color: #ffffff;
     padding: 32px 16px;
-    border: 20px #63a703;
 }
 
 #solucoes h2 {
